@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2> Trang chủ Kid's Health</h2>
+<p>
+    <ul>
+        @foreach (var test in ViewBag.Test)
+        {
+            <li>@test</li>
+        } 
+    </ul>
+</p>
+
